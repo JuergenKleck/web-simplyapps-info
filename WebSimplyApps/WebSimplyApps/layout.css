@@ -1,0 +1,360 @@
+:root {
+    --color-light-white: #efeff1;
+    --color-dark-gray: #0e0e10;
+    --color-solid-gray: #eeeeee;
+    --color-transparent-black: #00000061;
+    --color-transparent-black2: #000000b0;
+    --color-turquoise: #00bcd4;
+    --color-dark-green: #52b10a;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: var(--color-light-white);
+    background-color: var(--color-dark-gray);
+}
+#root {
+}
+.main {
+    display: block;
+}
+
+/*
+.pagedata {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    vertical-align: top;
+}
+
+    .pagedata .content {
+        padding: 6px 4px 4px 20px;
+        font-size: 17pt;
+        color: #000000;
+    }
+
+.navigation {
+    display: inline-block;
+    width: 10%;
+    min-width: 200px;
+    border-right: 1px solid #FFee00;
+    background: linear-gradient(90deg, #0033dd66 0%, transparent 100%);
+    box-shadow: -7px 0px 20px 9px #ffee00;
+    height: 100%;
+    vertical-align: top;
+}
+
+    .navigation .nav-list {
+        padding: 0px 0px 0px 6px;
+    }
+
+        .navigation .nav-list .nav-item {
+            display: block;
+            padding: 6px 0px 6px 0px;
+        }
+
+            .navigation .nav-list .nav-item .nav-link {
+                color: #b10000;
+                font-size: 17pt;
+                text-shadow: 0 0 1px #fffb00c7, 0px 0px 2px #0000ff78;
+            }
+
+*/
+
+/* OLD CONTENT */
+
+.background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    font-family: "Courier New", Courier, monospace;
+}
+
+    .container .imageholder {
+        position: relative;
+    }
+
+    .container .header {
+        background: transparent url("/simplyapps/images/bigdroid.png") no-repeat top left;
+        position: absolute;
+        height: 270px;
+        left: -300px;
+        z-index: 50;
+        width: 300px;
+        top: 20px;
+    }
+
+        .container .header .title {
+        }
+
+            .container .header .title .logo {
+                position: absolute;
+                width: 300px;
+                height: 70px;
+                background: transparent url("/simplyapps/images/apps-logo.png") no-repeat top left;
+                top: 96px;
+                left: 38px;
+            }
+
+                .container .header .title .logo .main-text {
+                    color: var(--color-dark-green);
+                    font-weight: bold;
+                    font-style: italic;
+                    font-size: 23pt;
+                    position: absolute;
+                    left: 16px;
+                    top: 0px;
+                }
+
+                .container .header .title .logo .off-text {
+                    color: var(--color-dark-green);
+                    font-weight: bold;
+                    font-style: italic;
+                    font-size: 17pt;
+                    position: absolute;
+                    left: 44px;
+                    top: 33px;
+                }
+
+    .container .body {
+        z-index: 100;
+    }
+
+        .container .body .apps {
+            display: inline-block;
+            width: 315px;
+            overflow-y: hidden;
+            height: 100%;
+            vertical-align: top;
+            background-color: var(--color-transparent-black);
+        }
+
+            .container .body .apps .title {
+                font-weight: bold;
+                font-size: 12pt;
+                text-align: center;
+                padding-top: 8px;
+                width: 100%;
+                display: block;
+            }
+
+            .container .body .apps .text {
+            }
+
+            .container .body .apps .app-spacer {
+                display: inline-block;
+                width: 90%;
+                height: 3px;
+                background: var(--color-light-white);
+                margin: 0px 15px;
+            }
+
+            .container .body .apps .app {
+                padding: 8px 0px;
+                font-weight: bold;
+                font-size: 14pt;
+                display: inline-block;
+                width: 98%;
+                height: 30px;
+                padding-left: 4px;
+            }
+
+                .container .body .apps .app a {
+                    text-decoration: none;
+                    color: var(--color-light-white);
+                }
+
+                .container .body .apps .app .applogo {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                }
+
+                    .container .body .apps .app .applogo img {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                .container .body .apps .app .apptitle {
+                    display: inline-block;
+                    height: 30px;
+                    vertical-align: top;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                }
+
+        .container .body #overlay {
+            color: var(--color-light-white);
+            display: inline-block;
+            width: 970px;
+            vertical-align: top;
+            padding-left: 3px;
+        }
+
+            .container .body #overlay .contentWrap {
+                overflow-y: auto;
+            }
+
+        .container .body .appdetail {
+            position: relative;
+            display: block;
+            overflow: auto;
+            width: 947px;
+        }
+
+            .container .body .appdetail .image {
+            }
+
+            .container .body .appdetail .link {
+                display: inline-block;
+                text-align: right;
+                width: 182px;
+            }
+
+                .container .body .appdetail .link .play-link img {
+                    width: 180px;
+                }
+
+
+            .container .body .appdetail .text {
+                display: block;
+            }
+
+            .container .body .appdetail .description {
+                display: inline-block;
+                margin-top: 20px;
+                padding: 10px 0px;
+                text-align: center;
+                width: calc(100% - 190px);
+            }
+
+            .container .body .appdetail .img-content {
+
+            }
+
+                .container .body .appdetail .img-content .teaser {
+                    position: absolute;
+                    right: 0px;
+                }
+
+                .container .body .appdetail .img-content .teaser .teaser-img {
+                }
+
+            .container .body .appdetail .items {
+                width: calc(100% - 400px);
+            }
+
+            .container .body .appdetail .items .item .screen {
+                width: 100%;
+            }
+
+            .container .body .appdetail .items .item .teaser {
+                width: 400px;
+            }
+
+            .container .body .appdetail .items .item .logo {
+                display: block;
+                margin: auto;
+                width: 96px;
+            }
+
+            .container .body .appdetail .screenshots {
+                display: block;
+                padding-left: 10px;
+            }
+
+                .container .body .appdetail .screenshots .items .row {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+                .container .body .appdetail .screenshots .items .row1,
+                .container .body .appdetail .screenshots .items .row3 {
+                    width: 250px;
+                }
+
+                .container .body .appdetail .screenshots .items .row .item {
+                    display: inline-block;
+                    padding: 0px 3px 6px 3px;
+                }
+
+                    .container .body .appdetail .screenshots .items .row .item img {
+                    }
+
+            .container .body .appdetail .portrait .items .column {
+                width: auto;
+                display: inline-block;
+            }
+
+            .container .body .appdetail .portrait .items .item {
+                display: inline-block;
+                width: 180px;
+            }
+
+            .container .body .appdetail .portrait .items .column2 {
+                width: auto;
+                display: inline-block;
+            }
+
+                .container .body .appdetail .portrait .items .column2 .item {
+                    width: auto;
+                }
+
+            .container .body .appdetail .portrait .items .noteaser {
+                width: 100% !important;
+            }
+
+            .container .body .appdetail .title {
+                font-size: 14pt;
+                padding-top: 4px;
+                padding-bottom: 8px;
+                text-align: center;
+                font-weight: bold;
+            }
+
+    .container .footer {
+        margin-top: 10px;
+        width: 100%;
+        height: 60px;
+        position: relative;
+        font-weight: bold;
+    }
+
+        .container .footer a {
+            color: var(--color-light-white);
+        }
+
+        .container .footer .branding {
+            padding: 6px 10px 0px 10px;
+            font-size: 10pt;
+        }
+
+        .container .footer .author {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+
+        .container .footer .branding blockquote {
+            margin: 0px !important;
+            padding: 0px !important;
+        }
+
+    .nav-link,
+    .site-link {
+        color: var(--color-solid-gray);
+        text-decoration: none;
+    }
+    .nav-link:hover > div,
+    .site-link:hover {
+        background-color: var(--color-turquoise);
+        text-decoration: none;
+    }

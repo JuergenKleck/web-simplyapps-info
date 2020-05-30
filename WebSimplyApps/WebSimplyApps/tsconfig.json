@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "CommonJS",
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "ES6",
+    "jsx": "react",
+    "esModuleInterop":  true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "app.tsx",
+    "navigation.tsx",
+    "content.tsx",
+    "apps/apptemplate.tsx",
+    "apps/fishingcat.tsx",
+    "apps/memorymaster.tsx",
+    "apps/hedgehog.tsx",
+    "apps/feedthecat.tsx",
+    "apps/brick360.tsx",
+    "apps/colormixlwp.tsx",
+    "apps/fisheslwp.tsx",
+    "apps/appointment.tsx",
+    "apps/notebook.tsx",
+    "apps/workouter.tsx",
+    "apps/shoppinglist.tsx",
+    "privacy.tsx"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "web-simply-apps",
+  "version": "0.0.1",
+  "description": "WebSimplyApps",
+  "main": "server.js",
+  "author": {
+    "name": "Jürgen Kleck"
+  },
+  "dependencies": {
+    "css-loader": "^3.5.3",
+    "express": "~4.17.1",
+    "path": "~0.12.7",
+    "react": "~16.13.1",
+    "react-dom": "~16.13.1",
+    "react-router-dom": "^5.2.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "~7.0.4",
+    "typescript": "~3.9.3",
+    "webpack": "~4.43.0",
+    "webpack-cli": "~3.3.11"
+  },
+  "scripts": {
+    "build": "webpack-cli app.tsx --config webpack-config.js"
+  }
+}
