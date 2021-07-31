@@ -7,11 +7,12 @@ export class AppWorkouter extends Component {
         return (
             <AppTemplate
                 title="Workouter"
-                package="email.kleck.android.workouter"
+                package="info.simplyapps.app.workouter"
                 app="workouter"
                 portrait="1"
                 teaser="1"
-                screens="5">
+                screens="5"
+                published="false">
                 <div className="desccontent">
                     This app displays your daily workouts with weight lifting and cardio.
                 </div>

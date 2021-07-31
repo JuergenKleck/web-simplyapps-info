@@ -11,7 +11,8 @@ export class AppFishingCat extends Component {
                 app="fishingcat"
                 portrait="0"
                 teaser="1"
-                screens="4">
+                screens="4"
+                published="true">
                 <div className="desccontent">
                     Help the little cat to catch some fishes.
                     <br />

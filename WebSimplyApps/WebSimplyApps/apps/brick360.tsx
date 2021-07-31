@@ -11,7 +11,8 @@ export class AppBrick360 extends Component {
                 app="brick360"
                 portrait="0"
                 teaser="1"
-                screens="4">
+                screens="4"
+                published="true">
                 <div className="desccontent">
                     The classic brick breaker revamped and turned into a 360 playzone!
                     <br /><br />

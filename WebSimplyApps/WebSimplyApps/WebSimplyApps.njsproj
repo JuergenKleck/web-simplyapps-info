@@ -34,6 +34,7 @@
   <ItemGroup>
     <Content Include="dist\app-bundle.js" />
     <Content Include="dist\app-bundle.js.map" />
+    <Content Include="simplyapps-privacy.html" />
     <Content Include="layout.css">
       <SubType>Code</SubType>
     </Content>
@@ -97,6 +98,15 @@
     <Folder Include="apps\" />
     <Folder Include="www\" />
     <Folder Include="www\apps\" />
+    <Folder Include="www\apps\appointment\" />
+    <Folder Include="www\apps\brick360\" />
+    <Folder Include="www\apps\colormix\" />
+    <Folder Include="www\apps\feedthecat\" />
+    <Folder Include="www\apps\fishes\" />
+    <Folder Include="www\apps\fishingcat\" />
+    <Folder Include="www\apps\hedgehog\" />
+    <Folder Include="www\apps\memorymaster\" />
+    <Folder Include="www\apps\shoppinglist\" />
     <Folder Include="www\images\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />

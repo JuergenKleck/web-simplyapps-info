@@ -11,7 +11,8 @@ export class AppColorMixLWP extends Component {
                 app="colormix"
                 portrait="1"
                 teaser="1"
-                screens="2">
+                screens="2"
+                published="true">
                 <div className="desccontent">
                     Live Wallpaper with slowly flowing colors.
                 </div>

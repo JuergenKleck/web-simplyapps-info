@@ -11,7 +11,8 @@ export class AppFeedTheCat extends Component {
                 app="feedthecat"
                 portrait="0"
                 teaser="1"
-                screens="5">
+                screens="5"
+                published="true">
                 <div className="desccontent">
                     Feed the cat by collecting food.<br />
                     Tap to escape the traps.<br /><br />

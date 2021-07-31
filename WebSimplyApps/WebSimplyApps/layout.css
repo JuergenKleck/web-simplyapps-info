@@ -83,7 +83,7 @@ body {
     }
 
     .container .header {
-        background: transparent url("/simplyapps/images/bigdroid.png") no-repeat top left;
+        background: transparent;
         position: absolute;
         height: 270px;
         left: -300px;

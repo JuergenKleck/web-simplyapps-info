@@ -12,11 +12,12 @@ export function ImageItem(props) {
 }
 
 export function AppTemplate(props) {
-    const portrait = props.portrait == 1;
-    const teaser = props.teaser == 1;
+    const portrait = props.portrait === 1;
+    const teaser = props.teaser === 1;
     const screens = props.screens;
     const appName = props.app;
     const appTitle = props.title;
+    const published = props.published === 'true';
     const screenMap = [];
     for (let i = 0; i < screens; i++) {
         screenMap.push({ id: i + 1, id2: i + 100, value: i + 1 });
@@ -40,7 +41,10 @@ export function AppTemplate(props) {
                 <div className="text">
                     <div className="description">{props.children}</div>
                     <div className="link">
-                        <a className="play-link" target="_top" href={'https://play.google.com/store/apps/details?id=' + props.package}><img alt="Get it on Google Play" src="/simplyapps/images/en_badge_web_generic.png" /></a>
+                        {published
+                            ? <a className="play-link" target="_top" href={'https://play.google.com/store/apps/details?id=' + props.package}><img alt="Get it on Google Play" src="/simplyapps/images/en_badge_web_generic.png" /></a>
+                            : <div>Not published in Google Play</div>
+                        }
                     </div>
                 </div>
             </div>                

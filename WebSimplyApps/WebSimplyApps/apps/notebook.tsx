@@ -11,7 +11,8 @@ export class AppNotebook extends Component {
                 app="notebook"
                 portrait="1"
                 teaser="1"
-                screens="2">
+                screens="2"
+                published="true">
                 <div className="desccontent">
                     This app functions as a simple notebook with the possibility to add, edit and delete notebook entries.
                 </div>

@@ -11,7 +11,8 @@ export class AppAppointment extends Component {
                 app="appointment"
                 portrait="1"
                 teaser="1"
-                screens="2">
+                screens="2"
+                published="true">
                 <div className="desccontent">
                     Appointment AppWidget displaying the next 4 appointments from the Calendar.
                 </div>

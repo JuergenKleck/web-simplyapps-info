@@ -11,7 +11,8 @@ export class AppFishesLWP extends Component {
                 app="fishes"
                 portrait="1"
                 teaser="1"
-                screens="4">
+                screens="4"
+                published="true">
                 <div className="desccontent">
                     Fishes swimming in the ocean - on your screen!
                 </div>

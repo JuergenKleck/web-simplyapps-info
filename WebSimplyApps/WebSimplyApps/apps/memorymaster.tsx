@@ -11,7 +11,8 @@ export class AppMemoryMaster extends Component {
                 app="memorymaster"
                 portrait="0"
                 teaser="1"
-                screens="6">
+                screens="6"
+                published="true">
                 <div className="desccontent">
                     Get Memory Master now!
                     <br />

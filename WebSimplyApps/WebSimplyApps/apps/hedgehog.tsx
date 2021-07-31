@@ -11,7 +11,8 @@ export class AppHedgehog extends Component {
                 app="hedgehog"
                 portrait="1"
                 teaser="1"
-                screens="5">
+                screens="5"
+                published="true">
                 <div className="desccontent">
                     Move the hedgehog by moving the phone.<br />
                     Collect mushrooms to score points.<br /><br />
